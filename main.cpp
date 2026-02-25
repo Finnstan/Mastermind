@@ -9,6 +9,5 @@ int main() {
 
 	Mastermind game;
 
-	game.printColors();
-	game.makeSequence();
-}
+	game.gameChoice();		//user chooses between playing or using mastermind solver
+};
